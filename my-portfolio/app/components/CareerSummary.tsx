@@ -1,4 +1,4 @@
-import styles from './CareerSummary.module.css'
+import styles from './components-css/CareerSummary.module.css'
 
 export default function CareerSummary() {
   return (

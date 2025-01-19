@@ -1,4 +1,4 @@
-import styles from './AboutMe.module.css'
+import styles from './components-css/AboutMe.module.css'
 
 export default function AboutMe() {
   return (

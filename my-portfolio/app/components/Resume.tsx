@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './Resume.module.css'
+import styles from './components-css/Resume.module.css'
 
 export default function Resume() {
   return (

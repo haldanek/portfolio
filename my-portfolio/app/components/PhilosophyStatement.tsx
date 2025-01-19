@@ -1,4 +1,4 @@
-import styles from './PhilosophyStatement.module.css'
+import styles from './components-css/PhilosophyStatement.module.css'
 
 export default function PhilosophyStatement() {
   return (

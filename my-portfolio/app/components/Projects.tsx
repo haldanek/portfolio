@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './Projects.module.css'
+import styles from './components-css/Projects.module.css'
 
 export default function Projects() {
   const projects = [

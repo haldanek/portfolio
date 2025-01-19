@@ -1,4 +1,4 @@
-import styles from './Skills.module.css'
+import styles from './components-css/Skills.module.css'
 
 export default function Skills() {
   const skills = [
