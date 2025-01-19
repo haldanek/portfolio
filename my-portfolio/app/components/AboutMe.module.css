@@ -1,0 +1,16 @@
+.aboutMe {
+  text-align: center;
+}
+
+.aboutMe h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.aboutMe p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+

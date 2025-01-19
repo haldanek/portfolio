@@ -1,0 +1,32 @@
+.resume {
+  text-align: center;
+}
+
+.resume h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
