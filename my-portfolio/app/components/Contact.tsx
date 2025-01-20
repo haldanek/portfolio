@@ -25,46 +25,60 @@ export default function Contact() {
       <div className={styles.contactContent}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>
-            <label htmlFor="name">Name</label>
+            <label htmlFor='name'>Name</label>
             <input
-              type="text"
-              id="name"
+              type='text'
+              id='name'
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="email">Email</label>
+            <label htmlFor='email'>Email</label>
             <input
-              type="email"
-              id="email"
+              type='email'
+              id='email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="message">Message</label>
+            <label htmlFor='message'>Message</label>
             <textarea
-              id="message"
+              id='message'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
           </div>
-          <button type="submit" className={styles.submitButton}>Send Message</button>
+          <a href='khaldane244@gmail.com' className={styles.emailLink}>
+            <button type='submit' className={styles.submitButton}>
+              Send Message
+            </button>
+          </a>
         </form>
         <div className={styles.socialLinks}>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className={styles.socialButton}>
+          <a
+            href='https://www.linkedin.com/in/kimberlee-haldane-09a292332'
+            target='_blank'
+            rel='noopener noreferrer'
+            className={styles.socialButton}
+          >
             LinkedIn Profile
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className={styles.socialButton}>
+          <a
+            href='https://github.com/yourusername'
+            target='_blank'
+            rel='noopener noreferrer'
+            className={styles.socialButton}
+          >
             GitHub Profile
           </a>
         </div>
       </div>
     </section>
-  )
+  );
 }
 

@@ -32,17 +32,17 @@ export default function CareerSummary() {
         <li>
           <h3>Previous: Instructional Leader</h3>
           <li>
+            Over 12 years of experience in instructional leadership, exceeding
+            grade-level expectations, increasing standardized assessment scores
+            and improving literacy skills
+          </li>
+          <li>
             Proven track record of improving student engagement and expanding
             support through differentiation
           </li>
           <li>
             Experienced in working with cross-functional and cross-curricula
             teams in diverse environments
-          </li>
-          <li>
-            Over 12 years of experience in instructional leadership, exceeding
-            grade-level expectations, increasing standardized assessment scores
-            and improving literacy skills
           </li>
         </li>
         {/* Add more career items as needed */}

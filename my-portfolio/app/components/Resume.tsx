@@ -9,7 +9,7 @@ export default function Resume() {
         <Link href="/resume.pdf" target="_blank" className={styles.button}>
           View Resume
         </Link>
-        <Link href="/resume.pdf" download className={styles.button}>
+        <Link href="/my-portfolio/public/Haldane_K_Resume_CD_2025 copy.pages.pdf" download className={styles.button}>
           Download Resume
         </Link>
       </div>
