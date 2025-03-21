@@ -1,19 +1,37 @@
-import Link from 'next/link'
-import styles from './components-css/Resume.module.css'
+import styles from './components-css/Resume.module.css';
 
 export default function Resume() {
   return (
     <section className={styles.resume}>
       <h2>Resume</h2>
-      <div className={styles.buttons}>
-        <Link href="/resume.pdf" target="_blank" className={styles.button}>
-          View Resume
-        </Link>
-        <Link href="/my-portfolio/public/Haldane_K_Resume_CD_2025 copy.pages.pdf" download className={styles.button}>
+      <div>
+        {/* Embed PDF */}
+       <object
+         className={styles.pdf}
+         data='/my-portfolio/public/Haldane-Resume-25D.pdf'
+         type='application/pdf'
+         width='100%'
+         height='600'
+         aria-label="Kimberlee Haldane's Resume in PDF format"
+       >
+         <p>
+           You can{' '}
+           <a href='/my-portfolio/public/Haldane-Resume-25D.pdf' download>
+             download the resume
+           </a>{' '}
+           to view it.
+         </p>
+       </object>
+
+        {/* Download Link */}
+        <a
+          href='/my-portfolio/public/Haldane-Resume-25D.pdf'
+          download
+          className={styles.button}
+        >
           Download Resume
-        </Link>
+        </a>
       </div>
     </section>
-  )
+  );
 }
-
